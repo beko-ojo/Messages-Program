@@ -19,18 +19,29 @@ p{
     color: aliceblue;
     text-align: center;
 }
-.message-container {
-    text-align: center;
-    padding: 20px;
-    /* opacity: 0;
-    transition: opacity 0.5s; */
+/* Media query for smaller screens (e.g., screens narrower than iPhone 6 width) */
+@media (max-width: 375px) {
+    .message-container {
+        padding: 10px;
+    }
+    .message-container img {
+        width: 100px;
+        height: 100px;
+        margin-top: 5px;
+    }
 }
-.message-container img {
-    width: 500px; 
-    height: 300px; 
-    margin-top: 10px; 
-}
-#message-output{
+
+/* Media query for larger screens (e.g., screens wider than iPhone X) */
+@media (min-width: 375px) {
+    .message-container {
+        padding: 30px; 
+    }
+    .message-container img {
+        width: 250px; 
+        height: 250px;
+        margin-top: 15px;
+    }
+}#message-output{
     font-size: 3rem;
     font-family: monospace;
     color: aliceblue;
@@ -47,3 +58,13 @@ p{
         opacity: 1;
     }
 }
+.message-container {
+    text-align: center;
+    padding: 20px;
+}
+.message-container img {
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+}
+
