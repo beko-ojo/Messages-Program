@@ -25,8 +25,8 @@ p{
         padding: 10px;
     }
     .message-container img {
-        width: 100px;
-        height: 100px;
+        width: 300px;
+        height: 200px;
         margin-top: 5px;
     }
 }
@@ -37,8 +37,8 @@ p{
         padding: 30px; 
     }
     .message-container img {
-        width: 250px; 
-        height: 250px;
+        width: 500px; 
+        height: 400px;
         margin-top: 15px;
     }
 }#message-output{
@@ -58,7 +58,7 @@ p{
         opacity: 1;
     }
 }
-.message-container {
+/* .message-container {
     text-align: center;
     padding: 20px;
 }
@@ -67,4 +67,4 @@ p{
     height: 200px;
     margin-top: 10px;
 }
-
+ */
