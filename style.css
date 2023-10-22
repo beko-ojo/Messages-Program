@@ -17,6 +17,7 @@ h1{
  }
 p{
     color: aliceblue;
+    text-align: center;
 }
 .message-container {
     text-align: center;
